@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find turtlebot_bringup)/launch/minimal.launch"/>
+	<include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+	<node pkg="tomas_showcase" type="menu.py" name="menu" output="screen">
+        
+    	</node>
+</launch>
